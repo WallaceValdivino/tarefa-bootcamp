@@ -45,6 +45,9 @@ margin-top: 16px;
     margin-top: 24px;
     margin-bottom: 16px;
 }
+input:focus {
+    outline: none;
+}
 
 .titulo{
     font-size: 32px;
@@ -61,4 +64,23 @@ input {
     border-radius: 5px;
     margin: 10px;
     border: none;
+}
+
+button {
+
+    margin-top: 1.2rem;
+    width: 50%;
+    padding: 14px 32px;
+    color: white;
+    background-color:  rgb(46,17, 51);
+    margin-bottom: 8px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color:  rgb(31, 6, 36);
 }
