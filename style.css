@@ -21,7 +21,7 @@ body {
 }
 
 .texto{
-    padding: 4px;
+    padding: 10px;
 color: white;
 margin-top: 16px;
 
@@ -42,11 +42,15 @@ margin-top: 16px;
     background-color: rgb(62, 95, 239);
     border: 10px solid rgb(38, 55, 219);
     border-radius: 5px;
+    margin-top: 24px;
+    margin-bottom: 16px;
 }
 
 .titulo{
     font-size: 32px;
+    margin-bottom: 16px;
     color: white;
+    padding: 20px;
 }
 
 input {
